@@ -1,0 +1,7 @@
+# Redirects
+/index.html       /             301
+/home             /             301
+/o-nas            /o-nas.html    301
+/kontakt          /kontakt.html  301
+/lecba            /lecba.html    301
+/kariera          /kariera.html  301
