@@ -16,28 +16,15 @@
     },
     {
       "source": "/css/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
-      ]
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
     },
     {
       "source": "/js/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
-      ]
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
     },
     {
       "source": "/fotky/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
-      ]
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
     }
-  ],
-  "redirects": [
-    { "source": "/home", "destination": "/", "permanent": true },
-    { "source": "/o-nas", "destination": "/o-nas.html", "permanent": true },
-    { "source": "/kontakt", "destination": "/kontakt.html", "permanent": true },
-    { "source": "/lecba", "destination": "/lecba.html", "permanent": true },
-    { "source": "/kariera", "destination": "/kariera.html", "permanent": true }
   ]
 }
