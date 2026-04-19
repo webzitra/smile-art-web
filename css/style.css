@@ -170,8 +170,8 @@ h3 { font-size: var(--h3); }
   gap: 1.5rem;
 }
 .nav-logo { display: flex; align-items: center; gap: 0.75rem; z-index: 101; }
-.nav-logo img { height: 48px; width: auto; transition: height var(--t-mid); }
-.nav.scrolled .nav-logo img { height: 42px; }
+.nav-logo img { height: 72px; width: auto; transition: height var(--t-mid); }
+.nav.scrolled .nav-logo img { height: 56px; }
 .nav-logo-text { display: flex; flex-direction: column; line-height: 1.1; }
 .nav-logo-text strong { font-size: 1.1rem; font-weight: 800; color: var(--ink); letter-spacing: -0.01em; }
 .nav-logo-text span { font-size: 0.72rem; color: var(--teal); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
@@ -940,7 +940,7 @@ h3 { font-size: var(--h3); }
   .hero-badge-text span { font-size: 0.7rem; }
 
   .nav-logo-text span { display: none; }
-  .nav-logo img { height: 40px; }
+  .nav-logo img { height: 52px; }
 
   .stats { padding: 2.5rem 0; }
   .stats-grid { gap: 2rem 1rem; }
